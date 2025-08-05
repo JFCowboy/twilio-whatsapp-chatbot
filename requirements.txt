@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+twilio
+openai
+python-dotenv
+python-decouple
+sqlalchemy
+psycopg2-binary
+python-multipart

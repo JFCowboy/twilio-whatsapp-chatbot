@@ -1,0 +1,23 @@
+{
+  "name": "Twilio WhatsApp Chatbot",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [8000],
+  "customizations": {
+    "codespaces": {
+        "openFiles": [
+            "README.md"
+        ]
+    },
+    "vscode": {
+        "settings": {
+            "terminal.integrated.defaultProfile.linux": "bash",
+            "python.defaultInterpreterPath": "/usr/local/bin/python"
+        },
+        "extensions": [
+            "ms-python.python",
+            "ms-python.vscode-pylance"
+        ]
+    }
+  }
+}
