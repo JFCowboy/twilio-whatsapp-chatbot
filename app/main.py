@@ -2,8 +2,7 @@ from fastapi import FastAPI, Form, Request
 import openai
 from decouple import config
 
-from twilio_utils import send_message, logger
-
+from .twilio_utils import send_message, logger
 
 app = FastAPI()
 
